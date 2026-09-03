@@ -1,0 +1,11 @@
+/* TEAM */
+Operator: Anand Vashishtha
+Contact: anandcollege07@gmail.com
+Site: https://www.vibemarketer.fun
+GitHub: https://github.com/Anand-0037
+X: https://x.com/AnandVashisht15
+
+/* SITE */
+Standards: Next.js, Supabase Auth + Postgres, Vercel
+Challenge: Hack-Nation Challenge 02 — The VC Brain
+SEO/AEO surfaces: /llms.txt · /llms-full.txt · /site-index.txt · /feed.jsonl · /answers.json · /rss.xml · /sitemap.xml · /robots.txt

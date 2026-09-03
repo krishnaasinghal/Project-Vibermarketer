@@ -1,0 +1,5 @@
+Contact: mailto:anandcollege07@gmail.com
+Preferred-Languages: en
+Canonical: https://www.vibemarketer.fun/.well-known/security.txt
+Policy: https://www.vibemarketer.fun/llms.txt
+Expires: 2027-07-19T00:00:00.000Z

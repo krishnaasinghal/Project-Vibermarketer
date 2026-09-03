@@ -1,0 +1,39 @@
+{
+  "name": "@vibe/engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "VC Brain scoring + memory core for thevibemarketing.online",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "smoke": "tsx scripts/smoke.ts",
+    "test": "tsx src/scoring/gravity.test.ts && tsx src/scoring/screening.test.ts && tsx src/memory/brand-memory.test.ts && tsx src/connectors/reddit.test.ts && tsx src/connectors/composio.test.ts && tsx src/research/site-scorecard.test.ts && tsx src/research/synthesize.test.ts && tsx src/agents/agents-failclosed.test.ts",
+    "test:gravity": "tsx src/scoring/gravity.test.ts",
+    "test:screening": "tsx src/scoring/screening.test.ts",
+    "test:memory": "tsx src/memory/brand-memory.test.ts",
+    "test:reddit": "tsx src/connectors/reddit.test.ts",
+    "test:composio": "tsx src/connectors/composio.test.ts",
+    "test:scorecard": "tsx src/research/site-scorecard.test.ts",
+    "test:agents": "tsx src/agents/agents-failclosed.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "e2b": "^2.35.0"
+  }
+}

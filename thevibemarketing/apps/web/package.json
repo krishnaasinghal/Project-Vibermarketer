@@ -1,0 +1,35 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "verify:production": "node scripts/production-gate.mjs",
+    "test:content": "tsx src/content/posts.test.ts && tsx src/content/plans.test.ts && tsx src/lib/seo-assets.test.ts && tsx src/lib/marketing-store-lifecycle.test.ts && tsx src/lib/marketing-report.test.ts && tsx src/lib/security-headers.test.ts && tsx src/lib/public-apply-admission.test.ts && tsx src/lib/internal-worker-auth.test.ts && tsx src/lib/publishing/publish-attempts.test.ts && tsx src/lib/publishing/publish-attempt-service.test.ts",
+    "test:publishing:db": "tsx src/lib/publishing/publish-attempt-db.test.ts",
+    "test": "pnpm test:content"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.3",
+    "@supabase/supabase-js": "^2.110.7",
+    "@vibe/engine": "workspace:*",
+    "mermaid": "^11.16.0",
+    "next": "16.2.10",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.10",
+    "tailwindcss": "^4",
+    "tsx": "^4.20.0",
+    "typescript": "^5"
+  }
+}

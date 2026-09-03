@@ -1,0 +1,10 @@
+{
+  "id": "thesis_default",
+  "sectors": ["AI infra", "developer tools", "agentic software"],
+  "stage": "pre-seed",
+  "geo": "global",
+  "check_size": 100000,
+  "ownership_target": "8-12%",
+  "risk": "moderate",
+  "updated_at": "2026-07-18T00:00:00.000Z"
+}

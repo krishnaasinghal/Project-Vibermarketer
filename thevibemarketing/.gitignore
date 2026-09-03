@@ -1,0 +1,48 @@
+# Build output
+node_modules/
+.next/
+.turbo/
+dist/
+coverage/
+.pnpm-store/
+*.tsbuildinfo
+*.log
+*.db
+.eslintcache
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local state
+.vercel/
+.netlify/
+data/store.json
+data/stores/
+data/uploads/
+data/waitlist.jsonl
+data/marketing.json
+data/smoke-store.json
+/supabase/.branches/
+/supabase/.temp/
+/apps/web/digest.txt
+apps/web/pnpm-lock.yaml
+sqlite_mcp_server.db
+
+# Local workspaces
+/scripts/
+/docs/
+/specs/
+/.local/
+/.agents/
+/.codex/
+/agents/
+/.cursor/
+/.grok/
+/plugins/
+
+# Local notes
+idea.md
+CLAUDE.local.md
